@@ -2,3 +2,32 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden !important;
 }
+
+.navbar, .navbar-default {
+	min-height: 0;
+	border-radius: 0;
+	color: black;
+	font-size: 1em;
+}
+
+
+#primarynav {
+	text-align: left;
+	background: rgb(210, 212, 218); 
+}
+
+#primaryNavElts > li > a{
+	border-right: 1px solid #000;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: black
+}
+
+#uppernav {
+	background: #00796B
+}
+
+#primarynavbutton {
+	float: left;
+	left: 1em;
+}
