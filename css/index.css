@@ -3,7 +3,11 @@ body {
 	overflow-x: hidden !important;
 }
 
-.navbar, .navbar-default {
+nav {
+	background-color: #00796B;
+}
+
+.navbar.navbar-default {
 	min-height: 0;
 	border-radius: 0;
 	color: black;
@@ -20,14 +24,32 @@ body {
 	border-right: 1px solid #000;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	color: black
+	color: black;
 }
 
 #uppernav {
-	background: #00796B
+	background: #00796B;
 }
 
 #primarynavbutton {
 	float: left;
 	left: 1em;
+}
+
+#header {
+	background: #00796B;
+}
+
+#logoimage {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#secondarynav {
+	background: #1d1d1d;
+}
+
+#secondarynav div ul li a {
+	color: white;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0)
 }
