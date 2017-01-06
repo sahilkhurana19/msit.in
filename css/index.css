@@ -53,3 +53,17 @@ nav {
 	color: white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0)
 }
+
+.leftpanel {
+	list-style: circle;
+	padding-left: 2em;
+}
+
+.leftpanel li a{ 
+	color: #00796B;
+}
+
+.leftpanel li:hover {
+	background: #ececec;
+	color: #3E211B;
+}
