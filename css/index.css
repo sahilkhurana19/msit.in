@@ -1,6 +1,7 @@
 body {
 	overflow-y: scroll;
 	overflow-x: hidden !important;
+	background: #ececec;
 }
 
 nav {
@@ -66,4 +67,31 @@ nav {
 .leftpanel li:hover {
 	background: #ececec;
 	color: #3E211B;
+}
+
+.panel-body p {
+	color: #FF5722;
+	font-weight: 700;
+}
+
+.panel-title a {
+	color: #FF5722;
+}
+
+.list-group a {
+	color: #00796B;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+	#mobileview {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	#deskview {
+		display: none;
+	}
 }
