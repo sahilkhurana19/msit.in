@@ -82,6 +82,17 @@ nav {
 	color: #00796B;
 }
 
+.centralcontent {
+	background: white;
+	padding: 1em;
+	border-radius: 1em;
+	min-height: 50vh;
+}
+
+.carousel-caption {
+	background: rgba(0,0,0,0.7)
+}
+
 
 
 @media only screen and (min-width: 720px) {
