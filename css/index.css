@@ -93,6 +93,20 @@ nav {
 	background: rgba(0,0,0,0.7)
 }
 
+#rightpanel > div{
+	font-weight: bolder;
+	color: #FF5722;
+	font-size: 1.5em;
+}
+
+#rightpanelbody {
+	background: white;
+}
+
+#rightpanelbody div ul li p{
+	font-size: 1em !important;
+}
+
 
 
 @media only screen and (min-width: 720px) {
